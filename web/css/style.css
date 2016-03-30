@@ -1,0 +1,291 @@
+.content
+{
+	position:relative;
+	overflow-x:auto;
+	overflow-y:auto;
+}
+
+.content span
+{
+	font-size:12px;
+	font-family:"新宋体";
+}
+
+.boxin
+{
+	width:100%;
+	margin-top:30px;
+	margin-left:10px;
+}
+
+.content table
+{
+	border-color:#0066FF;
+}
+
+.menu
+{
+	position:fixed;
+	overflow:hidden;
+}
+
+body.box
+{
+	position:relative;
+	margin: 0px;
+	height: 680px;
+	width: 1000px;
+	overflow:auto;
+}
+
+.mainframe
+{
+	width:100%;
+	height:100%;
+}
+.toplable
+{
+	position:fixed;
+	left:240px;
+	top:90px;
+}
+
+.menutd
+{
+	height:30px;
+	background-image:url(./../img/menu.png);
+	background-repeat:repeat-x;
+}
+
+.menutd:hover
+{
+	background-image:url(./../img/menu_select.png);
+}
+
+.menutd a
+{
+	text-align:center;
+	display: table-cell;
+	vertical-align: middle;
+	position:relative;
+	height:30px;
+	width:128px;
+	color:#dddddd;
+	font-size:18px;
+	font-weight:bolder;
+	font:"宋体";
+}
+
+.menutd a:hover
+{
+	color:#333333;
+}
+
+ul
+{
+	margin:0;
+	padding:0;
+}
+
+.treebox
+{
+	width:100%;
+	margin-top:20px;
+}
+
+.treetd
+{
+	width:100%;
+	height:70px;
+}
+
+.tree
+{
+	margin-left:0px;
+	margin-right:0px;
+	background-image:url(./../img/tree.png);
+	background-repeat:repeat-x;
+	width:240px;
+	height:52px;
+	text-align:center;
+	list-style-type:none;
+	font-size:18px;
+	font-weight:bold;
+	font:"宋体";
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.tree:hover
+{
+	background-image:url(./../img/tree_select.png);
+}
+
+table
+{
+	border-color:#0066FF;
+	border:1px;
+	border-collapse:collapse;
+}
+
+tr
+{
+	rowspan:2;
+}
+
+td
+{
+	height:19px;
+	colspan:2;
+}
+
+th
+{
+	height:23px;
+	background-image:url(../img/table.png);
+	background-repeat:repeat-x;
+	colspan:2;
+}
+
+th span
+{
+	width:100%;
+	height:100%;
+}
+
+span
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+a
+{
+	display:block;
+	text-decoration:none;
+}
+
+.tree a
+{
+	text-align:center;
+	display: table-cell;
+	vertical-align: middle;
+	position:relative;
+	height:50px;
+	width:238px;
+	color:#dddddd;
+}
+
+.tree a:hover
+{
+	color:#333333;
+}
+.OperBtn
+{
+	position:absolute;
+	left:15px;
+}
+
+input
+{
+	width:120px;
+}
+
+select
+{
+	width:120px;
+}
+
+.btn input
+{
+	background-image:url(../img/button_hover.png);
+	background-repeat:repeat-x;
+	width:60px;
+	height:27px;
+}
+.btn input:hover
+{
+	background-image:url(../img/button.png);
+	background-repeat:repeat-x;
+}
+
+.hide
+{
+	display:none;
+}
+
+.show
+{
+	display:block;
+}
+
+
+.pop-box 
+{   
+	z-index: 9999; /*这个数值要足够大，才能够显示在最上层*/  
+	margin-bottom: 3px;   
+	display: none;   
+	position: absolute;   
+	background: #FFF;   
+	border:solid 1px #6e8bde;   
+}   
+  
+.pop-box h4 
+{   
+	color: #FFF;   
+	cursor:default;   
+	height: 18px;   
+	font-size: 14px;   
+	font-weight:bold;   
+	text-align: left;   
+	padding-left: 8px;   
+	padding-top: 4px;   
+	padding-bottom: 2px;   
+	
+}   
+  
+.pop-box-body 
+{   
+	clear: both;   
+	margin: 4px;   
+	padding: 2px;   
+} 
+
+
+.mask 
+{   
+	color:#ffffff;
+	background-color:#ffffff;
+	position:absolute;
+	top:0px;
+	left:0px;
+	filter: Alpha(Opacity=60);
+} 
+
+.closeDiv
+{
+	height:30px;
+	background-image:url(../img/menu_select.png);
+}
+
+.close
+{
+	position:relative;
+	height:100%;
+	width:100%;
+	margin-right:0px;
+	margin-top:0px;
+}
+
+.tableDiv
+{
+	position:absolute;
+	right:17px;
+	left:17px;
+	overflow:auto;
+}
+
+.posNewSail
+{
+}
